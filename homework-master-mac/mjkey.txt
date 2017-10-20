@@ -1,0 +1,20 @@
+MuJoCo Pro Personal license activation key, number 26316, type 6.
+
+Issued to Yongzhao Wang <wangyzh@umich.edu>.
+
+Expires June 29, 2018.
+
+This file activates MuJoCo Pro on a single computer with id:
+OSX_240LESSDPPP07AJ_C02G1014013H0F31A031
+
+Do not modify this file. Its entire content, including the
+plain text section, is used by the activation manager.
+
+ce443159f1855a2f7d21bb0b82255298f619c6cbee9b5dd3317e67ec8b1697be
+90aea9fb3154de0851d879c4cf832d1c5a1573f1d985e4e7be78c6b29d65379c
+82492cc585d313c404cac1e4f628635d9bcedf5519cb7c0b103b9d36a9ecf0cc
+25a78f5e2210b60bbce6834f70ba39ce90676108135094fbc10cec24a6a73cb2
+ac581d43a6ae992600d418010d112ad043044dec46a8f2775e794c701235d245
+bb8fc40ac8a374d7c96e277c2063aed4a8802ca0bd77856550724ed29204d3e4
+5fb5c54e437368dca35a94abd8430c2cef2a3c3b2147b441ba6e5a010b636ca3
+fdad27fe396fab8c100d6371f5ac8d3c7c6308fcc82995b3084515626efe09ac

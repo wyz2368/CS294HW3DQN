@@ -1,0 +1,303 @@
+yongzhao@yongzhao-Lenovo-ideapad-Y700-15ISK:~$ python '/home/yongzhao/Desktop/homework-master/hw3/run_dqn_atari.py' 
+[2017-07-18 21:55:12,532] Making new env: PongNoFrameskip-v4
+[2017-07-18 21:55:13,670] Creating monitor directory /tmp/hw3_vid_dir2/gym
+2017-07-18 21:55:13.671076: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-18 21:55:13.671089: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-18 21:55:13.671114: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-18 21:55:13.671119: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-18 21:55:13.671124: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-18 21:55:14.888719: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-07-18 21:55:14.889613: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: GeForce GTX 960M
+major: 5 minor: 0 memoryClockRate (GHz) 1.176
+pciBusID 0000:01:00.0
+Total memory: 3.95GiB
+Free memory: 3.76GiB
+2017-07-18 21:55:14.889673: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2017-07-18 21:55:14.889696: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2017-07-18 21:55:14.889738: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0)
+2017-07-18 21:55:14.942606: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0)
+('AVAILABLE GPUS: ', [u'device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0'])
+[2017-07-18 21:55:15,457] Starting new video recorder writing to /tmp/hw3_vid_dir2/gym/openaigym.video.0.2036.video000000.mp4
+[2017-07-18 21:55:26,285] Starting new video recorder writing to /tmp/hw3_vid_dir2/gym/openaigym.video.0.2036.video000001.mp4
+[2017-07-18 21:55:33,943] Starting new video recorder writing to /tmp/hw3_vid_dir2/gym/openaigym.video.0.2036.video000008.mp4
+[2017-07-18 21:55:54,910] Starting new video recorder writing to /tmp/hw3_vid_dir2/gym/openaigym.video.0.2036.video000027.mp4
+[2017-07-18 21:57:23,671] Starting new video recorder writing to /tmp/hw3_vid_dir2/gym/openaigym.video.0.2036.video000064.mp4
+Timestep 60000
+mean reward (100 episodes) -20.409091
+best mean reward -inf
+episodes 66
+exploration 0.946000
+learning_rate 0.000100
+Timestep 70000
+mean reward (100 episodes) -20.363636
+best mean reward -inf
+episodes 77
+exploration 0.937000
+learning_rate 0.000100
+Timestep 80000
+mean reward (100 episodes) -20.333333
+best mean reward -inf
+episodes 87
+exploration 0.928000
+learning_rate 0.000100
+Timestep 90000
+mean reward (100 episodes) -20.373737
+best mean reward -inf
+episodes 99
+exploration 0.919000
+learning_rate 0.000100
+Timestep 100000
+mean reward (100 episodes) -20.320000
+best mean reward -20.320000
+episodes 109
+exploration 0.910000
+learning_rate 0.000100
+Timestep 110000
+mean reward (100 episodes) -20.300000
+best mean reward -20.290000
+episodes 120
+exploration 0.901000
+learning_rate 0.000100
+[2017-07-18 22:03:42,379] Starting new video recorder writing to /tmp/hw3_vid_dir2/gym/openaigym.video.0.2036.video000125.mp4
+Timestep 120000
+mean reward (100 episodes) -20.290000
+best mean reward -20.280000
+episodes 131
+exploration 0.892000
+learning_rate 0.000100
+Timestep 130000
+mean reward (100 episodes) -20.270000
+best mean reward -20.270000
+episodes 142
+exploration 0.883000
+learning_rate 0.000100
+Timestep 140000
+mean reward (100 episodes) -20.260000
+best mean reward -20.240000
+episodes 153
+exploration 0.874000
+learning_rate 0.000100
+Timestep 150000
+mean reward (100 episodes) -20.260000
+best mean reward -20.240000
+episodes 164
+exploration 0.865000
+learning_rate 0.000100
+Timestep 160000
+mean reward (100 episodes) -20.290000
+best mean reward -20.240000
+episodes 174
+exploration 0.856000
+learning_rate 0.000100
+Timestep 170000
+mean reward (100 episodes) -20.240000
+best mean reward -20.240000
+episodes 184
+exploration 0.847000
+learning_rate 0.000100
+Timestep 180000
+mean reward (100 episodes) -20.140000
+best mean reward -20.140000
+episodes 194
+exploration 0.838000
+learning_rate 0.000100
+Timestep 190000
+mean reward (100 episodes) -20.070000
+best mean reward -20.050000
+episodes 203
+exploration 0.829000
+learning_rate 0.000100
+Timestep 200000
+mean reward (100 episodes) -20.030000
+best mean reward -20.020000
+episodes 213
+exploration 0.820000
+learning_rate 0.000100
+[2017-07-18 22:13:40,466] Starting new video recorder writing to /tmp/hw3_vid_dir2/gym/openaigym.video.0.2036.video000216.mp4
+Timestep 210000
+mean reward (100 episodes) -20.000000
+best mean reward -20.000000
+episodes 222
+exploration 0.811000
+learning_rate 0.000100
+Timestep 220000
+mean reward (100 episodes) -19.920000
+best mean reward -19.920000
+episodes 231
+exploration 0.802000
+learning_rate 0.000100
+Timestep 230000
+mean reward (100 episodes) -19.790000
+best mean reward -19.790000
+episodes 240
+exploration 0.793000
+learning_rate 0.000100
+Timestep 240000
+mean reward (100 episodes) -19.710000
+best mean reward -19.710000
+episodes 249
+exploration 0.784000
+learning_rate 0.000100
+Timestep 250000
+mean reward (100 episodes) -19.670000
+best mean reward -19.640000
+episodes 257
+exploration 0.775000
+learning_rate 0.000100
+Timestep 260000
+mean reward (100 episodes) -19.590000
+best mean reward -19.590000
+episodes 266
+exploration 0.766000
+learning_rate 0.000100
+Timestep 270000
+mean reward (100 episodes) -19.470000
+best mean reward -19.470000
+episodes 275
+exploration 0.757000
+learning_rate 0.000100
+Timestep 280000
+mean reward (100 episodes) -19.500000
+best mean reward -19.470000
+episodes 284
+exploration 0.748000
+learning_rate 0.000100
+Timestep 290000
+mean reward (100 episodes) -19.510000
+best mean reward -19.470000
+episodes 292
+exploration 0.739000
+learning_rate 0.000100
+Timestep 300000
+mean reward (100 episodes) -19.490000
+best mean reward -19.470000
+episodes 300
+exploration 0.730000
+learning_rate 0.000100
+Timestep 310000
+mean reward (100 episodes) -19.500000
+best mean reward -19.460000
+episodes 309
+exploration 0.721000
+learning_rate 0.000100
+Timestep 320000
+mean reward (100 episodes) -19.470000
+best mean reward -19.460000
+episodes 318
+exploration 0.712000
+learning_rate 0.000100
+Timestep 330000
+mean reward (100 episodes) -19.300000
+best mean reward -19.300000
+episodes 326
+exploration 0.703000
+learning_rate 0.000100
+Timestep 340000
+mean reward (100 episodes) -19.320000
+best mean reward -19.290000
+episodes 334
+exploration 0.694000
+learning_rate 0.000100
+Timestep 350000
+mean reward (100 episodes) -19.230000
+best mean reward -19.220000
+episodes 342
+exploration 0.685000
+learning_rate 0.000100
+[2017-07-18 22:30:56,219] Starting new video recorder writing to /tmp/hw3_vid_dir2/gym/openaigym.video.0.2036.video000343.mp4
+Timestep 360000
+mean reward (100 episodes) -19.140000
+best mean reward -19.140000
+episodes 351
+exploration 0.676000
+learning_rate 0.000100
+Timestep 370000
+mean reward (100 episodes) -19.150000
+best mean reward -19.100000
+episodes 359
+exploration 0.667000
+learning_rate 0.000100
+Timestep 380000
+mean reward (100 episodes) -19.160000
+best mean reward -19.100000
+episodes 368
+exploration 0.658000
+learning_rate 0.000100
+Timestep 390000
+mean reward (100 episodes) -19.180000
+best mean reward -19.100000
+episodes 376
+exploration 0.649000
+learning_rate 0.000100
+Timestep 400000
+mean reward (100 episodes) -19.180000
+best mean reward -19.100000
+episodes 385
+exploration 0.640000
+learning_rate 0.000100
+Timestep 410000
+mean reward (100 episodes) -19.090000
+best mean reward -19.090000
+episodes 394
+exploration 0.631000
+learning_rate 0.000100
+Timestep 420000
+mean reward (100 episodes) -19.130000
+best mean reward -19.070000
+episodes 403
+exploration 0.622000
+learning_rate 0.000100
+Timestep 430000
+mean reward (100 episodes) -19.060000
+best mean reward -19.060000
+episodes 410
+exploration 0.613000
+learning_rate 0.000100
+Timestep 440000
+mean reward (100 episodes) -18.990000
+best mean reward -18.980000
+episodes 417
+exploration 0.604000
+learning_rate 0.000100
+Timestep 450000
+mean reward (100 episodes) -19.000000
+best mean reward -18.940000
+episodes 425
+exploration 0.595000
+learning_rate 0.000100
+Timestep 460000
+mean reward (100 episodes) -19.020000
+best mean reward -18.940000
+episodes 433
+exploration 0.586000
+learning_rate 0.000100
+Timestep 470000
+mean reward (100 episodes) -19.140000
+best mean reward -18.940000
+episodes 442
+exploration 0.577000
+learning_rate 0.000100
+^CTraceback (most recent call last):
+  File "/home/yongzhao/Desktop/homework-master/hw3/run_dqn_atari.py", line 133, in <module>
+    main()
+  File "/home/yongzhao/Desktop/homework-master/hw3/run_dqn_atari.py", line 130, in main
+    atari_learn(env, session, num_timesteps=task.max_timesteps)
+  File "/home/yongzhao/Desktop/homework-master/hw3/run_dqn_atari.py", line 77, in atari_learn
+    grad_norm_clipping=10
+  File "/home/yongzhao/Desktop/homework-master/hw3/dqn.py", line 304, in learn
+    learning_rate:optimizer_spec.lr_schedule.value(t)
+  File "/home/yongzhao/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 789, in run
+    run_metadata_ptr)
+  File "/home/yongzhao/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 997, in _run
+    feed_dict_string, options, run_metadata)
+  File "/home/yongzhao/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1132, in _do_run
+    target_list, options, run_metadata)
+  File "/home/yongzhao/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1139, in _do_call
+    return fn(*args)
+  File "/home/yongzhao/anaconda2/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1121, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+[2017-07-18 22:46:01,425] Finished writing results. You can upload them to the scoreboard via gym.upload('/tmp/hw3_vid_dir2/gym')
+yongzhao@yongzhao-Lenovo-ideapad-Y700-15ISK:~$ 
+

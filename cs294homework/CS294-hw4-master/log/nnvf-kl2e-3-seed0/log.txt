@@ -1,0 +1,2 @@
+EpRewMean	EpLenMean	KLOldNew	Entropy	EVBefore	EVAfter	TimestepsSoFar
+-1265.0659976	200.0	1.2935e-05	1.41628	0.0	0.324407574293	2600
